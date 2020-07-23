@@ -1,0 +1,99 @@
+body{
+    background: rgb(45, 180, 214);
+    font-size: 20px;
+}
+.navbar-menu{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6));
+    font-family: monospace;
+}
+
+#textField{
+    font-size: 20px;
+}
+ul{
+   border-radius: 5px; 
+   margin: 10px;
+}
+ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    color: black;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 238, 238);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 23px;
+    padding-left: 5px;
+    list-style-position: inside;
+}
+.cross{
+    color: white;
+    /* margin-right: 10px; */
+    float: right;
+    height: 46px;
+}
+.cross:hover{
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    transition: all .4s;
+}
+.update{
+    color: white;
+    /* margin-right: 10px; */
+    float: right;
+    height: 46px;
+}
+.update:hover{
+    background-color: white;
+    transition: all .4s;
+    color: orange;
+}
+button{
+    font-weight: bold;
+}
+
+@media (max-width:1000px){
+    ul li{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    
+    ul li{
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+    
+    ul li{
+        font-size: 15px;
+        background-color: rgb(240, 238, 238);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 5px;
+        list-style-position: inside;
+        list-style-type: none;
+
+    }
+}
+
+@media screen and (max-width: 360px) {
+  
+    ul li{
+        font-size: 12px;
+        background-color: rgb(240, 238, 238);
+        border: 2px solid black;
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 5px;
+        list-style-position: inside;
+        list-style-type: none;
+
+    }
+}
